@@ -1,10 +1,19 @@
 const Discord = require('discord.js');
 const magicConch = require('magic-conch-core');
-const auth = require('./auth.json');
+
+if (!process.env.DISCORD_API_KEY) {
+  require('dotenv').config();
+}
+
+const token = process.env.DISCORD_API_KEY;
 
 const bot = new Discord.Client();
 
-bot.login(auth.token);
+bot.login(token)
+ .catch(e => {
+   console.log(e);
+ });
+
 
 bot.on('ready', () => {
   console.log('Ready!');
