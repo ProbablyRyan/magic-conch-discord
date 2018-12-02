@@ -1,0 +1,16 @@
+{
+  "name": "magic-conch-core",
+  "version": "1.0.0",
+  "description": "This copyrighted conch is the cornerstone of our organization!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProbablyRyan/magic-conch-core.git"
+  },
+  "author": "Ryan McHenry",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ProbablyRyan/magic-conch-core/issues"
+  },
+  "homepage": "https://github.com/ProbablyRyan/magic-conch-core#readme"
+}
