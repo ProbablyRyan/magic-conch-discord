@@ -1,0 +1,23 @@
+{
+  "name": "magic-conch-discord",
+  "version": "1.0.0",
+  "description": "Magic Conch bot for Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProbablyRyan/magic-conch-discord.git"
+  },
+  "author": "Ryan McHenry",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ProbablyRyan/magic-conch-discord/issues"
+  },
+  "homepage": "https://github.com/ProbablyRyan/magic-conch-discord#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "magic-conch-core": "github:ProbablyRyan/magic-conch-core"
+  }
+}
