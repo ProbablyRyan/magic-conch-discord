@@ -22,6 +22,6 @@ module.exports = Object.freeze([
     tags: ["WHAT DO"]
   }, {
     response: "Try asking again",
-    tags: ["UNKNOWN", "YES OR NO", "EITHER OR", "WHAT DO"]
+    tags: ["UNKNOWN", "YES OR NO"]
   }
 ]);
