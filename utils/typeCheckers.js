@@ -2,14 +2,14 @@
 
 module.exports = {
   isYesOrNo: q => {
-    return /^(?:will|do|did|am|are|were|could|can|should|have|has|may|might|must|ought|shall).*/gim.test(q);
+    return /^<.*>\W*(?:will|do|did|am|are|were|could|can|should|have|has|may|might|must|ought|shall).*/gim.test(q);
   },
 
   isEitherOr: q => {
-    return /(?:^.*\bor\b.*|^which\b.*)/gim.test(q);
+    return /(?:^.*\bor\b.*|^<.*>\W*which\b.*)/gim.test(q);
   },
 
   isWhatDo: q => {
-    return /^what (?:will|do|did|am|are|were|could|can|should|have|has|may|might|must|ought|shall).*/gim.test(q);
+    return /^<.*>\W*what (?:will|do|did|am|are|were|could|can|should|have|has|may|might|must|ought|shall).*/gim.test(q);
   }
 }
