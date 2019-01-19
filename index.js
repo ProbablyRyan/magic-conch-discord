@@ -1,5 +1,5 @@
-const responseMap = require('utils/responseMap');
-const classifyQuestion = require('utils/classifyQuestion');
+const responseMap = require('./utils/responseMap');
+const classifyQuestion = require('./utils/classifyQuestion');
 
 module.exports = message => {
   const questionType = classifyQuestion(message);

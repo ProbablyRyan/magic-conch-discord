@@ -1,4 +1,4 @@
-const type = require('typeCheckers');
+const type = require('./typeCheckers');
 
 module.exports = text => type.isYesOrNo(text) ? "YES OR NO" : notYesOrNo(text);
 
