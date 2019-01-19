@@ -1,7 +1,13 @@
 const type = require('./typeCheckers');
 
-module.exports = text => type.isYesOrNo(text) ? "YES OR NO" : notYesOrNo(text);
-
-const notYesOrNo = text => type.isEitherOr(text) ? "EITHER OR" : notEitherOr(text);
-
-const notEitherOr = text => type.isWhatDo(text) ? "WHAT DO" : "UNKNOWN";
+module.exports = text => {
+  if (type.isEitherOr(text)) {
+    return "EITHER OR";
+  } else if (type.isYesOrNo(text)) {
+    return "YES OR NO";
+  } else if (type.isWhatDo(text)) {
+    return "WHAT DO";
+  } else {
+    return "UNKNOWN";
+  }
+}
