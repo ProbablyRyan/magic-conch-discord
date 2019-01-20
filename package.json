@@ -2,7 +2,11 @@
   "name": "magic-conch-discord",
   "version": "1.0.0",
   "description": "Magic Conch bot for Discord",
-  "main": "index.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "node -r dotenv/config app.js "
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ProbablyRyan/magic-conch-discord.git"
@@ -15,7 +19,9 @@
   "homepage": "https://github.com/ProbablyRyan/magic-conch-discord#readme",
   "dependencies": {
     "discord.js": "^11.4.2",
-    "dotenv": "^6.1.0",
     "magic-conch-core": "github:ProbablyRyan/magic-conch-core"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0"
   }
 }

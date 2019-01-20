@@ -1,10 +1,6 @@
 const Discord = require('discord.js');
 const magicConch = require('magic-conch-core');
 
-if (!process.env.DISCORD_BOT_TOKEN || !process.env.DISCORD_CLIENT_ID) {
-  require('dotenv').config();
-}
-
 const token = process.env.DISCORD_BOT_TOKEN;
 const clientID = process.env.DISCORD_CLIENT_ID;
 
