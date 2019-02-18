@@ -18,7 +18,7 @@
   "homepage": "https://github.com/ProbablyRyan/magic-conch-discord#readme",
   "dependencies": {
     "discord.js": "^11.4.2",
-    "magic-conch-core": "github:ProbablyRyan/magic-conch-core"
+    "magic-conch-core": "git+https://github.com/ProbablyRyan/magic-conch-core.git"
   },
   "devDependencies": {
     "dotenv": "^6.2.0"
