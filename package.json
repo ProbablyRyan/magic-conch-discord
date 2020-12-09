@@ -1,42 +1,20 @@
 {
-<<<<<<< HEAD
   "name": "magic-conch-discord",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Magic Conch bot for Discord",
   "main": "app.js",
   "scripts": {
-    "start:dev": "node -r dotenv/config app.js "
+    "dev": "node -r dotenv/config app.js "
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ProbablyRyan/magic-conch-discord.git"
-=======
-  "name": "magic-conch-core",
-  "version": "1.1.1",
-  "description": "This copyrighted conch is the cornerstone of our organization!",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ProbablyRyan/magic-conch-core.git"
->>>>>>> magic-conch-core/master
   },
-  "author": "Ryan McHenry",
-  "license": "UNLICENSED",
-  "bugs": {
-<<<<<<< HEAD
-    "url": "https://github.com/ProbablyRyan/magic-conch-discord/issues"
-  },
-  "homepage": "https://github.com/ProbablyRyan/magic-conch-discord#readme",
+  "homepage": "https://discord.com/oauth2/authorize?client_id=507355928950210584&scope=bot",
   "dependencies": {
-    "discord.js": "^11.4.2",
-    "magic-conch-core": "git+https://github.com/ProbablyRyan/magic-conch-core.git"
+    "discord.js": "^11.4.2"
   },
   "devDependencies": {
     "dotenv": "^6.2.0"
   }
-=======
-    "url": "https://github.com/ProbablyRyan/magic-conch-core/issues"
-  },
-  "homepage": "https://github.com/ProbablyRyan/magic-conch-core#readme"
->>>>>>> magic-conch-core/master
 }
