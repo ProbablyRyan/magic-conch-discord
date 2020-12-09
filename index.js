@@ -11,4 +11,4 @@ module.exports = message => {
     const i = Math.floor(Math.random() * responses.length);
     return responses[i].response;
   }
-}
+};
